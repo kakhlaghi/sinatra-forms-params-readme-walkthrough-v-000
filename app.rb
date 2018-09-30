@@ -10,7 +10,10 @@ class App < Sinatra::Base
   <form method="POST" action="/food">
 
   post '/food' do
-    
+    params = {
+      :name => "Sam",
+      :favorite_food => "Green Eggs and Ham"
+    }
   end
 
 end
